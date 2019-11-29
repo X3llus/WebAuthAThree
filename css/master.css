@@ -1,0 +1,122 @@
+/* Reset */
+body, section, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+caption, th {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+abbr, acronym {
+  border: 0;
+}
+
+/*Custom styles begin here*/
+body {
+  font-family: Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+  font-size: 24px;
+  background-color: rgb(222, 222, 222);
+  color: rgb(36, 35, 35);
+}
+
+header, h2 {
+  font-family: Trebuchet, Tahoma, Arial, sans-serif;
+}
+
+header {
+  font-size: 3em;
+  padding: 20px;
+  background-color: rgb(92, 94, 117);
+}
+
+header a {
+  font-size: 0.5em;
+}
+
+main {
+  font-family: Garamond, ‘Hoefler Text’, ‘Times New Roman’, Times, serif;
+  display: table;
+}
+
+img {
+  width: 100%
+}
+
+article, #about {
+  float:left;
+  width: 40%;
+  display: inline-block;
+}
+
+article {
+  margin-right: 15%;
+}
+
+section {
+  padding: 10px;
+  padding-left: 40px;
+  border-bottom: solid;
+  border-color: rgb(62, 62, 62);
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+ul {
+  list-style: inside;
+  padding-left: 12px
+}
+
+p {
+  margin: 16px;
+}
+
+footer {
+  padding: 20px;
+  background-color: rgb(92, 94, 117);
+  text-align: center;
+  clear: left;
+}
+
+a {
+  color: unset;
+  color: rgb(43, 41, 41);
+}
+
+section img {
+  height: 250px;
+  width: auto;
+  float: left;
+  padding: 50px;
+}
+
+section p {
+  width: 100%;
+  word-wrap: break-word;
+}
